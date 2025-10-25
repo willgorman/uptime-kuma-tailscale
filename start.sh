@@ -23,13 +23,14 @@ else
   echo "TAILSCALE_AUTHKEY not set, skipping Tailscale setup"
 fi
 
+export UPTIME_KUMA_PORT=80
 if [ "$ONLY_TAILSCALE" = "true" ]; then
   echo "Using Tailscale IP for Uptime Kuma"
-  export HOST=$(/app/tailscale ip | head -n 1)
-  /app/tailscale serve / proxy 80
+  export UPTIME_KUMA_HOST=$(/app/tailscale ip | head -n 1)
+  /app/tailscale serve --bg 80
 else
   echo "Using default host for Uptime Kuma"
   export HOST="0.0.0.0"
 fi
 
-cd /app && node server/server.js --port 80 --host $HOST
+cd /app && node server/server.js --port 80 --host $UPTIME_KUMA_HOST

@@ -1,0 +1,136 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "flyctl": {
+        "pkg-path": "flyctl"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "flyctl",
+      "broken": false,
+      "derivation": "/nix/store/znksd4f8n85l49x0b3aqz5ldv0vi7ig3-flyctl-0.3.172.drv",
+      "description": "Command line tools for fly.io services",
+      "install_id": "flyctl",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "name": "flyctl-0.3.172",
+      "pname": "flyctl",
+      "rev": "7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "rev_count": 870157,
+      "rev_date": "2025-10-02T04:57:58Z",
+      "scrape_date": "2025-10-03T04:40:09.358019Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.3.172",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/7kyv2sdwkqcbba35qxdfbxg6c33qsmd1-flyctl-0.3.172"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "flyctl",
+      "broken": false,
+      "derivation": "/nix/store/jh86wm63hpk5070yksnz2bpifbi2kzrc-flyctl-0.3.172.drv",
+      "description": "Command line tools for fly.io services",
+      "install_id": "flyctl",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "name": "flyctl-0.3.172",
+      "pname": "flyctl",
+      "rev": "7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "rev_count": 870157,
+      "rev_date": "2025-10-02T04:57:58Z",
+      "scrape_date": "2025-10-03T04:56:39.224948Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.3.172",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/v9p1yg87cakrvmvj8cr5favj6xhxcj5q-flyctl-0.3.172"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "flyctl",
+      "broken": false,
+      "derivation": "/nix/store/mvawkhb0nkg177gga28lxz9xq3ii24l7-flyctl-0.3.172.drv",
+      "description": "Command line tools for fly.io services",
+      "install_id": "flyctl",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "name": "flyctl-0.3.172",
+      "pname": "flyctl",
+      "rev": "7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "rev_count": 870157,
+      "rev_date": "2025-10-02T04:57:58Z",
+      "scrape_date": "2025-10-03T05:12:16.001143Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.3.172",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/6a8cp3m1pqiq01l1v2nccn016vg8dw86-flyctl-0.3.172"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "flyctl",
+      "broken": false,
+      "derivation": "/nix/store/agkmxjxdw0l648v43q4slwbzx04vd017-flyctl-0.3.172.drv",
+      "description": "Command line tools for fly.io services",
+      "install_id": "flyctl",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "name": "flyctl-0.3.172",
+      "pname": "flyctl",
+      "rev": "7df7ff7d8e00218376575f0acdcc5d66741351ee",
+      "rev_count": 870157,
+      "rev_date": "2025-10-02T04:57:58Z",
+      "scrape_date": "2025-10-03T05:27:32.777682Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.3.172",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/0zqb85bc5ashrqanpfc3ylvhnzbmri0k-flyctl-0.3.172"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
